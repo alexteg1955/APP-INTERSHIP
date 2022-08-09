@@ -1,12 +1,16 @@
- *{
+
+body{
     background-color: rgb(237, 225, 225);
-} */
+} 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
 /* the header section */
 header.head
 {
-    background-color: black;
-   
-    
+    background-color: none ; 
 }
 h1.nest{
     float:none;
@@ -63,15 +67,21 @@ li.kin{
     
 } */
 
-p#footer {
-    text-align: center;
-    color: white;
-    margin: 50px;
-    padding: 15px;
-    font-size: 1em;
-    background-color: #172035;
+footer {
+    font-size: 1.1rem;
+    background-color: #172035;  
+    width: auto;
+    border: 1px solid;
     
 } 
+
+#footer{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+ 
 th {
     background-color: maroon;
     color: white;
@@ -82,6 +92,13 @@ td{
 li.info8{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: maroon;
+}
+hr{
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+
 }
 
 
